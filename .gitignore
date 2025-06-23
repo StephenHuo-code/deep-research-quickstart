@@ -1,0 +1,58 @@
+# Python缓存和编译文件
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+*.pkl
+
+# 虚拟环境
+.venv/
+venv/
+ENV/
+
+# Jupyter Notebook检查点
+.ipynb_checkpoints/
+
+# 环境变量和密钥
+.env
+.env.*
+*.env
+
+# VSCode设置
+.vscode/
+
+# Mac系统文件
+.DS_Store
+
+# 包管理器文件
+uv.lock
+poetry.lock
+Pipfile.lock
+
+# 日志和临时文件
+*.log
+*.tmp
+*.swp
+
+# 数据和输出
+*.sqlite3
+*.db
+*.csv
+*.tsv
+*.h5
+*.hdf5
+*.parquet
+*.feather
+*.xls*
+*.bak
+
+# 其他
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# 本地notebook输出
+*.nbconvert.ipynb
+
